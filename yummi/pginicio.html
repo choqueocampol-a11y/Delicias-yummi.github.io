@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delicias Yummi</title>
+    <link rel="stylesheet" href="pgdiseño.css">
+</head>
+
+<body>
+
+<h1>Yummi</h1>
+
+<button onclick="modoOscuro()">Modo Oscuro</button>
+
+<nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contactos">Contactos</a>
+</nav>
+
+<section id="inicio">
+    <h2>Inicio</h2>
+    <p>BIENVENIDO A DELICIAS YUMMI</p>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <p>Ofrecemos diferentes servicios y menú</p>
+
+    <div class="postres">
+
+        <div class="postre">
+            <img src="imagenes/donas.webp">
+            <p>Donas dulces</p>
+        </div>
+
+        <div class="postre">
+            <img src="imagenes/alfajores.jpg">
+            <p>Alfajores deliciosos</p>
+        </div>
+
+        <div class="postre">
+            <img src="imagenes/helado.webp">
+            <p>Helados de diferentes sabores</p>
+        </div>
+
+        <div class="postre">
+            <img src="imagenes/pastel.webp">
+            <p>Torta de frutilla</p>
+        </div>
+
+        <div class="postre">
+            <img src="imagenes/limon.jpg">
+            <p>Pie de limón</p>
+        </div>
+
+        <div class="postre">
+            <img src="imagenes/postre.jpg">
+            <p>Postres en vaso</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contactos">
+    <h2>Contactos</h2>
+    <p>Puedes comunicarte con nosotros para pedidos o consultas.</p>
+
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre"><br><br>
+        <input type="email" id="correo" placeholder="Correo"><br><br>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje"></textarea><br><br>
+        <button type="submit">Enviar</button>
+    </form>
+
+</section>
+
+<script src="funciones.js"></script>
+
+</body>
+</html>
